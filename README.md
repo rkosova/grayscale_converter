@@ -2,7 +2,7 @@
 Simple Python OOP grayscale converter. Can only read PIL image objects, but it shouldn't be too hard to implement other image processing library support. 
 
 ## How to use
-The GrayscaleConvert class holds two methods, `convert_num` and `convert_image`.
+The GrayscaleConvert class holds two methods, `convert_num` and `convert_image` and takes a PIL image object as a constructor parameter.
 ### `convert_num`
 Converts to a matrix of RGB values representing a gray RGB value based on the chosen algorithm. It takes one parameters:
   * algorithm: string, determines the algorithm to generate the grayscale values, defaults to "average"
